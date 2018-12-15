@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+<title>EMAIL TO REALMAIL</title>
+<meta http-equiv='Content-type' content='text/html; charset=UTF-8'></meta>
+<style type="text/css">
+      textarea {
+            height: 4.5em;
+            width: 20em;
+            display: block;
+      }
+      textarea#body {
+            height: 20em;
+            width: 60em;
+      }
+</style>
+</head>
+<body>
+<form action="email.php" method="post">
+<div>
+From (name):
+<input type="text" name="signature" value="Adam Kadmon"></input>
+</div>
+<div>
+From (address):
+<textarea name="from" id="from">
+1333 N Lincoln Ave
+Urbana, IL 61801
+</textarea>
+</div>
+<div>
+To (name &amp; address):
+<textarea name="to" id="to">
+Kronos Omphalos
+Apt. #4
+1666 E 43rd St
+Columbia, MO 65203
+</textarea>
+</div>
+<div>
+Opening:
+<input type="text" name="opening" value="To whom it may concern:"></input>
+</div>
+<div>
+Body:
+<textarea name="body" id="body">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam laoreet
+volutpat metus quis euismod. Curabitur id libero diam, ac pretium felis. Sed
+sem ligula, cursus ultrices sollicitudin quis, adipiscing eget orci. Nam
+sodales lacinia laoreet. Donec bibendum lorem odio, eu bibendum dui. Integer in
+imperdiet dolor. Cum sociis natoque penatibus et magnis dis parturient montes,
+nascetur ridiculus mus. Donec nunc magna, sodales nec placerat eget, lobortis
+at tortor. Nulla facilisi. Ut auctor orci vel lectus vehicula nec imperdiet
+risus ultrices. Proin sed lacus non libero fringilla interdum. Aenean ac nisl
+sit amet massa pretium imperdiet ut nec felis. Proin dapibus posuere eleifend.
+Suspendisse eget leo sit amet sem suscipit egestas. Proin nisl augue, euismod
+ac iaculis sed, scelerisque eget mi. Pellentesque eget elit erat. Ut tincidunt
+vehicula erat, nec ullamcorper ligula tincidunt vitae.
+
+Suspendisse rutrum aliquam lorem, eget tristique mauris aliquam luctus.
+Suspendisse viverra, quam eget sollicitudin tristique, justo elit laoreet
+nulla, eget condimentum massa lectus nec velit. Maecenas vel posuere neque.
+Curabitur vel orci sem, at bibendum ligula. Integer enim purus, gravida quis
+varius eu, dapibus fringilla odio. Praesent justo tellus, commodo quis
+pellentesque in, rutrum sit amet lorem. Pellentesque ipsum leo, porttitor vitae
+viverra vel, suscipit eu justo. Cum sociis natoque penatibus et magnis dis
+parturient montes, nascetur ridiculus mus. Proin semper rhoncus sodales.
+Aliquam dolor felis, semper et sagittis ut, euismod vitae urna. Cras bibendum
+ornare mi, vel faucibus purus faucibus egestas. Proin augue lacus, vehicula a
+vehicula sit amet, rutrum sed est. Suspendisse lectus arcu, hendrerit id
+convallis et, rhoncus eu enim. Curabitur eu nisi risus. Aliquam id elit ut diam
+viverra iaculis vel commodo eros. Cum sociis natoque penatibus et magnis dis
+parturient montes, nascetur ridiculus mus. Pellentesque sagittis eleifend
+tortor quis euismod. Cras tristique mattis quam, vitae porta dolor consectetur
+quis. Nunc non nisi sit amet arcu bibendum facilisis.
+
+Aenean neque libero, blandit ut dictum vel, convallis sed justo. Nam varius,
+nisi ac ullamcorper tristique, sem nibh molestie orci, id condimentum elit
+tortor et eros. Phasellus facilisis gravida nisl, sit amet commodo libero
+facilisis eu. Pellentesque adipiscing ante feugiat mi scelerisque vitae
+porttitor diam volutpat. Aenean iaculis justo nec nisl lacinia luctus ac ut
+ipsum. Sed sit amet nunc metus, a lobortis quam. Vestibulum bibendum quam quis
+risus volutpat facilisis. Duis dapibus leo et turpis facilisis scelerisque. Nam
+quis tellus ac velit pulvinar pretium a sollicitudin justo. Fusce vitae dolor
+nunc, in fermentum neque. Praesent in lacus orci. Mauris vitae sollicitudin
+sapien. Etiam nec rhoncus orci. Nam consequat ligula id ante ornare luctus. Sed
+cursus risus et felis consequat scelerisque. Etiam tortor velit, ultricies nec
+rutrum id, elementum ac neque.
+</textarea>
+</div>
+<div>
+Closing:
+<input type="text" name="closing" value="Sincerely,"></input>
+</div>
+<div>
+Send email where?:
+<input type="text" name="email" value="someone@email.com"></input>
+</div>
+<input type="submit" />
+</form>
+</body>
+</html>
